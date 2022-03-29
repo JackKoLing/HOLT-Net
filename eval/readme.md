@@ -1,1 +1,1 @@
-The eval files to refinement the HOI results and get final mAP.
+The eval files to refine the HOI results and get final mAP.
