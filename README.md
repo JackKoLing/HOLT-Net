@@ -35,7 +35,7 @@ The code was trained with python 3.6,  pytorch 1.10.1, torchvision 0.11.2, CUDA 
 
 ## Data Preparation (SCAU-SD Dataset)
 
-Download [SCAU-SD]() dataset. We transform the annotations of SCAU-SD dataset to JSON format following [no_frills_hoi_det](https://github.com/BigRedT/no_frills_hoi_det).
+Download SCAU-SD dataset form [Google cloud](https://drive.google.com/file/d/1L3kTVYWtnfgkBKndM6c-UacdJhn2yQ9U/view?usp=sharing) or [Baidu cloud](https://pan.baidu.com/s/1ZNOKKarEnJk0VRLwJqGHUA?pwd=yo71). We transform the annotations of SCAU-SD dataset to JSON format following [no_frills_hoi_det](https://github.com/BigRedT/no_frills_hoi_det).
 
 We count the training sample number of each category in smoker-det_hoi_count.json and smoker-det_verb_count.json following [DIRV](https://github.com/MVIG-SJTU/DIRV). It serves as a weight when calculating loss.
 
@@ -61,7 +61,7 @@ Make sure to put the files in the following structure:
 
 ## Pre-trained Weights
 
-Download the pre-trained [model]() for HOI trained on [EfficientDet](https://github.com/zylo117/Yet-Another-EfficientDet-Pytorch), and the post-refinement model trained on [YOLOX](https://github.com/Megvii-BaseDetection/YOLOX). Make sure to put them in `weights/` folder.
+Download the pre-trained models from [Google cloud](https://drive.google.com/file/d/1a3430pzP9HC_Kp8ZYCT9ntaDQ75WRxSg/view?usp=sharing) or [Baidu cloud](https://pan.baidu.com/s/1k6Pl9lsNdycaN_lwaWuCug?pwd=4j6z). which are trained on [EfficientDet](https://github.com/zylo117/Yet-Another-EfficientDet-Pytorch), and the post-refinement model trained on [YOLOX](https://github.com/Megvii-BaseDetection/YOLOX). Make sure to put them in `weights/` folder.
 
 
 ## Training
