@@ -1,1 +1,1 @@
-save pre-train models.
+save pre-trained models (Efficientdet) and post-refinrment model (YOLOX).
